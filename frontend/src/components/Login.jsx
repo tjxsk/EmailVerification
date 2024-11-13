@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import './Login.css'
 
 function Login() {
   const [email, setEmail] = useState('');
@@ -27,7 +28,7 @@ function Login() {
   };
 
   return (
-    <div style={{ padding: '2rem' }}>
+    <div className='main-container' style={{ padding: '2rem' }}>
       <h2>OTP Login</h2>
       {step === 1 && (
         <div>

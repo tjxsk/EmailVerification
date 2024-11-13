@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 740px;
+}
+
+.main-container {
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.main-container h2{
+    text-align: center;
+    color: rgb(59, 59, 157);
+}
